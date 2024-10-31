@@ -1,21 +1,10 @@
 {
-    "marcel": {
-        "groups": [
-            "admin",
-            "user"
-        ],
-        "maxAmount": 23
-    },
-    "user": {
-        "groups": [
-            "user"
-        ],
-        "maxAmount": 15
-    },
-    "admin": {
-        "groups": [
-            "admin"
-        ],
-        "maxAmount": 1000
+  "users": {
+    "user@example.com": {
+      "role": [{"position": "uw"}],
+      "allowed_oes": ["oe1", "oe2"],
+      "allowed_lobs": ["lob1", "lob2"],
+      "allowed_regions": ["region1", "region2"]
     }
+  }
 }
